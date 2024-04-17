@@ -1,0 +1,30 @@
+.contactBox {
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  width: 200px;
+  height: 70px;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: #a07575;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 2px;
+  border: 1px solid black;
+  box-shadow: 4px 4px 8px #0003;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.btn:hover {
+  scale: 1.2;
+}
+
+.icon {
+  margin-right: 5px;
+}
